@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+    scroll-behavior: smooth;
+}
+p{
+    margin: 16px 0;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0.4px 10px  -5px rgb(226, 17, 52);
+    font-size: 2rem;
+
+}
+img{
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    padding: 2px 4px;
+    margin: 01px 10px;
+}
+ul li{
+    padding: 16px;
+    display: inline-block;
+}
+main{
+   max-width: 1200px;
+   margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-width: 800px;
+    margin-left: 25px;
+    padding-top: 120px;
+    text-align: justify;
+
+}
+#inicio{
+    justify-content: space-around;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+ 
+}
+.perfil{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    max-width: 250px;
+    object-fit: contain;
+}
+.btn{
+    background-color: blue;
+    color: #ece7e7;
+    padding: 12px 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 60px;
+    border-radius: 40%;
+    font-size: 50px;
+}
+article{
+   background-color: blueviolet;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2rem;
+}
